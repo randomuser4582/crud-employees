@@ -49,7 +49,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://9sf7x3qadg.execute-api.eu-west-1.amazonaws.com",
   "devDependencies": {
     "prettier": "2.0.5",
     "tslint-config-prettier": "^1.18.0"
