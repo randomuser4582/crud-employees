@@ -1,0 +1,56 @@
+{
+  "name": "crud-employees",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.42",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-table": "^7.0.18",
+    "@types/styled-components": "^5.1.0",
+    "axios": "^0.19.2",
+    "http-proxy-middleware": "^1.0.4",
+    "notistack": "^0.9.16",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^5.7.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-table": "^7.1.0",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "https://9sf7x3qadg.execute-api.eu-west-1.amazonaws.com",
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
